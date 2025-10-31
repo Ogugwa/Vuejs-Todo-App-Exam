@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.76.1",
+    "@tailwindcss/vite": "^4.1.16",
     "@tanstack/vue-query": "^5.90.5",
     "axios": "^1.13.0",
     "pinia": "^3.0.3",

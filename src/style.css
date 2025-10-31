@@ -1,7 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-/* Your existing styles below */
+@import "tailwindcss";
+
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
