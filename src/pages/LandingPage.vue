@@ -13,7 +13,7 @@ const isActive = (path: string) =>
 <template>
   <div class="flex flex-col min-h-screen bg-gray-50">
     <!-- Navbar -->
-    <nav class="flex p-4 justify-center items-center gap-4 shadow-md bg-white">
+    <nav class="flex p-4 justify-center items-center gap-4 shadow-md bg-white ">
       <!-- Todoist icon (SVG) -->
       <svg class="h-10 w-10 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
         <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
@@ -24,7 +24,7 @@ const isActive = (path: string) =>
     </nav>
 
     <!-- Hero Section -->
-    <section class="flex flex-col items-center justify-center p-6">
+    <section class="flex flex-col items-center justify-center p-6 mt-6">
       <h2 class="font-bold text-xl md:text-3xl text-center mb-4">
         Your tasks. Your notes. One smooth workspace.
       </h2>

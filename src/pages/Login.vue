@@ -47,7 +47,7 @@ const handleSubmit = async () => {
   if (error) {
     alert(error.message);
   } else {
-    router.push("/basetodo"); // redirect
+    router.push("/dashboard"); // redirect
   }
 };
 
